@@ -30,16 +30,16 @@ export default function Header() {
                     </div>
                 </div>
 
-                <div className="flex items-center">
+                <div className="flex items-center cursor-pointer">
                     <img src="/assets/images/favicon.png" alt="Favicon" />
                 </div>
 
-                <div className="flex items-center space-x-4 md:space-x-14">
+                <div className="flex items-center space-x-4 md:space-x-14 cursor-pointer">
                     <button className="hidden md:block rounded-full bg-[#000000] p-4">
                         <img src="/assets/images/favorite.png" alt="Favorite" />
                     </button>
 
-                    <div className="hidden md:flex items-center">
+                    <div className="hidden md:flex items-center cursor-pointer">
                         <button className="rounded-full text-white bg-[#000000] px-6 py-4 tracking-[3px]">
                             Cart
                         </button>
@@ -48,7 +48,7 @@ export default function Header() {
                         </button>
                     </div>
 
-                    <button className="rounded-full text-white bg-[#000000] p-4">
+                    <button className="rounded-full text-white bg-[#000000] p-4 cursor-pointer">
                         <UserRound />
                     </button>
                 </div>
